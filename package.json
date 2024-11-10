@@ -1,0 +1,16 @@
+{
+  "name": "dayrange",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "types": "./lib.d.ts",
+  "type": "module",
+  "keywords": ["dayrange", "time"],
+  "author": "Dmytro Marchuk",
+  "license": "GPL-3.0",
+  "description": "Simple library for UTC dayrange",
+  "repository": "github:ddmytro-m/dayrange.git",
+  "exports": {
+    "import": "./lib.mjs",
+    "require": "./lib.cjs"
+  }
+}
