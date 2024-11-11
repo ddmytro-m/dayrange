@@ -1,6 +1,6 @@
 {
   "name": "dayrange",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.mjs",
   "types": "./lib.d.ts",
   "type": "module",
@@ -11,6 +11,7 @@
   "repository": "github:ddmytro-m/dayrange.git",
   "exports": {
     "import": "./lib.mjs",
-    "require": "./lib.cjs"
+    "require": "./lib.cjs",
+    "types": "./lib.d.ts"
   }
 }
